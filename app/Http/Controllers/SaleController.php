@@ -13,7 +13,6 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Validation\ValidationException;
 use Illuminate\View\View;
 
 class SaleController extends Controller

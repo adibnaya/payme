@@ -3,8 +3,6 @@
 namespace App\Http\Requests;
 
 
-use Illuminate\Validation\Rule;
-
 class Save extends Request
 {
 

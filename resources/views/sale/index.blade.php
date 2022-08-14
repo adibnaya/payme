@@ -23,7 +23,6 @@
                 <td>{{ number_format($sale->amount/100, 2) }}</td>
                 <td>{{$sale->currency}}</td>
                 <td><iframe src="{{$sale->payment_link}}" width="350px" height="200px"></iframe></td>
-{{--                <td><a href="{{$sale->payment_link}}">{{$sale->payment_link}}</a></td>--}}
             </tr>
 
         @endforeach
